@@ -13,27 +13,50 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Bio Crest Pharma Inc.</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/products">Products</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/company">Company</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contact">Contact Us</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+      <a class="navbar-brand" href="#">Bio Crest Pharma Inc.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="/products"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Products</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Biovic</a>
+              <a class="dropdown-item" href="#">Ferricrest</a>
+              <a class="dropdown-item" href="#">Cefucrest</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/company">Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <article class="container mt-4">
       <!-- Callout -->
@@ -62,7 +85,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12  col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="research">
               <h3>Health benefits of taking probiotics</h3>
               <p>
@@ -77,7 +100,7 @@
               <p><a class="btn btn-sm btn-outline-warning">Read More</a></p>
             </div>
           </div>
-          <div class="col-12  col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="research">
               <h3>What are probiotics?</h3>
               <p>
@@ -122,39 +145,132 @@
         </div>
         <div class="row">
           <div class="col-12 col-md-6">
-            <blockquote class="blockquote">
-              <p>
-                This brand has proven itself to be good as shown through my lab
-                results!
-              </p>
-              <p>- Juan dela Cruz</p>
-            </blockquote>
+            <div class="media">
+              <div class="d-none d-sm-block">
+                <img
+                  src="assets/images/juandelacruz.jpg"
+                  class="rounded-circle mr-3"
+                  height="100"
+                  width="100"
+                />
+              </div>
+              <div class="media-body">
+                <blockquote class="blockquote">
+                  <p>
+                    This brand has proven itself to be good as shown through my
+                    lab results!
+                  </p>
+                  <p>- Juan dela Cruz</p>
+                </blockquote>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6">
-            <blockquote class="blockquote">
-              <p>Great quality. 100% Best!</p>
-              <p>- Maria Clara</p>
-            </blockquote>
+            <div class="media">
+              <div class="d-none d-sm-block">
+                <img
+                  src="assets/images/mariaclara.jpg"
+                  class="rounded-circle mr-3"
+                  height="100"
+                  width="100"
+                />
+              </div>
+              <div class="media-body">
+                <blockquote class="blockquote">
+                  <p>Great quality. 100% Best!</p>
+                  <p>- Maria Clara</p>
+                </blockquote>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6">
-            <blockquote class="blockquote">
-              <p>Five stars!</p>
-              <p>- Crisostomo Ibarra</p>
-            </blockquote>
+            <div class="media">
+              <div class="d-none d-sm-block">
+                <img
+                  src="assets/images/crisostomoibarra.jpg"
+                  class="rounded-circle mr-3"
+                  height="100"
+                  width="100"
+                />
+              </div>
+              <div class="media-body">
+                <blockquote class="blockquote">
+                  <p>Five stars!</p>
+                  <p>- Crisostomo Ibarra</p>
+                </blockquote>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6">
-            <blockquote class="blockquote">
-              <p>Always happy with Bio Pharma products. Well done!</p>
-              <p>- Padre Damaso</p>
-            </blockquote>
+            <div class="media">
+              <div class="d-none d-sm-block">
+                <img
+                  src="assets/images/padredamaso.jpg"
+                  class="rounded-circle mr-3"
+                  height="100"
+                  width="100"
+                />
+              </div>
+              <div class="media-body">
+                <blockquote class="blockquote">
+                  <p>Always happy with Bio Pharma products. Well done!</p>
+                  <p>- Padre Damaso</p>
+                </blockquote>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- /.reviews -->
     </article>
-  </body>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <!-- Modal -->
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
