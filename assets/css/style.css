@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.callout-container {
+    height: 100vh;
+   
+   background: url('../images/shutterstock_760304731.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.research-container {
+    
+
+}
+
+.review-container {
+    
+}
