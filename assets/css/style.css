@@ -58,6 +58,10 @@ body {
     padding: 0px 0px 0px 0px;
 }
 
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
 /* Page headers */
 
 .page-header {
@@ -92,6 +96,8 @@ body {
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 /* Jumbotron */
@@ -137,4 +143,42 @@ body {
 .btn--yellow:active:focus {
     background-color: #fce205;
     border-top-color: #fce205;
+}
+
+.reviews {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+
+.footer {
+    color: whitesmoke;
+    background-color: #3b5998;
+}
+.footer-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer-info>p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.googlemap {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.yellowhover:hover {
+    color: #fce205;
+}
+
+.blacktext {
+    color: whitesmoke;
 }
