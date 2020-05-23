@@ -170,15 +170,67 @@ body {
     margin-bottom: 1px;
 }
 
-.googlemap {
-    padding-top: 30px;
-    padding-right: 20px;
-}
-
 .yellowhover:hover {
     color: #fce205;
 }
 
-.blacktext {
+.whitetext {
     color: whitesmoke;
+}
+
+#footer-details {
+    padding: 20px;
+}
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #5e2beb;transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+    background: #fce205;
+}
+
+/* Contact */
+
+.contact-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: #fce205;
+}
+
+.contact-container {
+    height: 100vh;
+   
+    background: url('../images/shutterstock_760304731.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
