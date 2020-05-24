@@ -10,7 +10,7 @@ body {
 }
 
 .container-wrapper--yellow {
-    background-color: #ffc30b;
+    background-color: whitesmoke;
     color: black;
 }
 
@@ -114,13 +114,13 @@ body {
 
 .jumbotron .lead {
     margin: 25px 0;
-    color: black;
+    color: whitesmoke;
 }
 
 .jumbotron small {
     font-size: 80%;
     font-style: italic;
-    color: black;
+    color: whitesmoke;
 }
 
 /* Buttons */
@@ -228,9 +228,21 @@ button[type="submit"] {
 .contact-container {
     height: 100vh;
    
-    background: url('../images/shutterstock_760304731.jpg') no-repeat center center fixed;
+   background: url('../images/contact-us.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+     margin-bottom: 0px;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
