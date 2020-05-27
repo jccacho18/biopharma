@@ -40,14 +40,20 @@ body {
     background-color: rgba(0,0,0,0.5)
 }
 
-.research-container {
-    
-
+.lead {
+    font-size: 25px;
 }
 
-.review-container {
-    
+.text-muted {
+    font-size: 20px;
+    padding-top: 10px;
 }
+
+h1 {
+    font-size: 75px;
+    text-shadow: 2px 2px black;
+}
+
 
 /* Navbar */
 
