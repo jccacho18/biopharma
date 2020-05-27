@@ -102,8 +102,8 @@ h1 {
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /* Jumbotron */
@@ -222,7 +222,7 @@ h1 {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 50%;
 }
 
 button[type="submit"] {
