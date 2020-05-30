@@ -253,3 +253,29 @@ button[type="submit"] {
     text-transform: uppercase;
 }
 
+/* Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+}
+
+/* Products */
+
+.product {
+    width: 300px;
+    height: 300px;
+} 
+
+.sticky {
+  position: relative;
+  top: 0;
+  width: 30%;
+  padding: 20px;
+  float: left;
+  margin-top: 75px;
+}
