@@ -2,18 +2,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    
-}
-
-.container-wrapper {
-
 }
 
 .container-wrapper--yellow {
     background-color: whitesmoke;
     color: black;
 }
-
 
 .callout-container {
     height: 100vh;
@@ -266,16 +260,23 @@ button[type="submit"] {
 
 /* Products */
 
-.product {
-    width: 300px;
-    height: 300px;
-} 
-
-.sticky {
+.image {
   position: relative;
-  top: 0;
-  width: 30%;
+  width: 250px;
+  height: 250px;
   padding: 20px;
   float: left;
-  margin-top: 75px;
+  margin-top: 55px;
+}
+
+.product-container {
+    padding-top: 120px;
+    padding-bottom: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.product-1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
