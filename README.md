@@ -7,12 +7,31 @@ Right now, this is just for studying purpose only and I will continue to improve
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is for:
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+* those who are interested to know the information about the company.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+* those who want to know and use the products.
+
+* those who want to make a review about products.
+
+* those who want to contact the company.
+
+
+## User Stories
+
+- As a user of this site, I want to easily find relevant information about the company.
+
+- As a user of this site, I want to know more information about the latest and existing products.
+
+- As a user of this site, I want to make a review on their products to help other consumers.
+
+- As a user of this site, I want to contact the company if I have inquiries.
+
+
+## Wireframes
+
+
 
 ## Features
 
@@ -59,24 +78,46 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/jccacho18/biopharma)
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+1. From the menu items near the top of the page, select Settings.
+2. Scroll down to the GitHub Pages section.
+3. Under Source click the drop-down menu labelled None and select Master Branch
+4. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+5. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+### How to run this project locally
+
+To clone this project from GitHub:
+
+1. Under the repository name, click "Clone or download".
+2. In the Clone with HTTPs section, copy the clone URL for the repository.
+3. In your local IDE open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type git clone and then paste the URL you copied in Step 3.
+
+>https://github.com/jccacho18/biopharma.git
+
+6. Press Enter. Your local clone will be created.
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- Most of the content came from Bio Crest Pharma Inc.
+
+- The content in the Health Information is copied from [Harvard Health Publishing](https://www.health.harvard.edu/vitamins-and-supplements/health-benefits-of-taking-probiotics?fbclid=IwAR395dMxALc9CIFp0PxwQrK6f4Fy_AcYtln2eDlotvbK_ZViUfopX7VvNBQ), [National Center for Complementary and Integrative Health](https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know?fbclid=IwAR3rtAltKcaVaS1Z5kCowTa2jat-WO4v1MisZhtgVUkYMc8wE_CYcsmsZLE) and [Science Daily](https://www.sciencedaily.com/releases/2018/09/180906141640.htm?fbclid=IwAR1KPaG5tU0WjhWmV7Akkx2RxHS8_kKS_Q110nNfKGvW7kH-V6B5Y1DrSRw).
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from shutterstock.com
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+I would like to thank my mentor Mark Railton for his invaluable advices and to the Code Institute mentors and students in the slack channels.
+
+### Disclaimer
+
+All the images and content on this website is for educational purposes only
