@@ -3,7 +3,7 @@
 Bio Crest Pharma Inc. is a real pharmaceutical company in the Philippines without an existing website. My purpose for this project is
 to help them have an online presence to improve their sales and to generate more jobs.
 
-Right now, this is just for studying purpose only and I will continue to improve, revise, or change it as I learn more with the course.
+Right now, this is just for studying purpose only and I will continue to improve, revise, or change it as I learn more about technologies.
  
 ## UX
  
@@ -36,15 +36,35 @@ Wireframes for desktop, tablet and mobile phone were created using Balsamiq. Ple
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### [Navbar](https://github.com/jccacho18/biopharma/blob/master/assets/images/navbar.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Used to aid visitors in accessing information like About Us, Products and Contact Us. Every page shares the same navbar.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### [Footer](https://github.com/jccacho18/biopharma/blob/master/assets/images/footer.png)
+
+Within the footer the following information is included:
+
+    - Opening hours;
+    - Contact details with links to google maps and to the contact page;
+    - Social links to social media websites. 
+
+### index.html
+
+The Home page contains the following features:
+
+    - Hero image;
+    - Sign Up button with a modal popup;
+    - Company Profile;
+    - Health Information that has an external links to other websites.
+
+### products.html
+
+    - Name of the products and description;
+    - Product Reviews
+
+### contact.html
+
+    - Form to send inquiries with required fields.
 
 ### Features Left to Implement
 
@@ -52,7 +72,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - More information about the company and products.
 
-- And technologies that I will learn on the course.
+- And technologies that I will learn on the following modules.
 
 ## Technologies Used
 
