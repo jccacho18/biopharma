@@ -31,6 +31,7 @@ This website is for:
 
 ## Wireframes
 
+Wireframes for desktop, tablet and mobile phone were created using Balsamiq. Please click [here](https://github.com/jccacho18/biopharma/blob/master/wireframes/wireframebiopharma.pdf).
 
 
 ## Features
@@ -46,35 +47,82 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+
+- "Call us" button on contact us page should link to actual call function on mobile phones.
+
+- More information about the company and products.
+
+- And technologies that I will learn on the course.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+    - used for structuring and presenting the content of this project.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - used fro styling the HTML5 elements.
 
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+    - used as a source of interactivity in the project.
+
+- [JQuery](https://jquery.com/)
+    - used JQuery to simplify DOM manipulation in my main javascript file.
+
+- [Hover.css](https://ianlunn.github.io/Hover/)
+    - used to create hover effects.
+
+- [Google Fonts](https://fonts.google.com/)
+    - used for fonts in the project.
+
+- [Font Awesome](https://fontawesome.com/)
+    - used for all icons in the project.
+
+- [Balsamiq Wireframes](https://balsamiq.com/)
+    - used to create wireframes.
+
+- [GitPod](https://www.gitpod.io/)
+    - used as the online IDE/workspace during the development.
+
+- [GitHub](https://github.com/)
+    - used for hosting the webpage and the repository.
+
+- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - used for debugging the webpage during the development.
+
+- [W3C Markup Validation Service](https://validator.w3.org/)
+    - used for validating HTML code.
+
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+    - used for validating CSS code.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Code Validation
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Each page was ran through [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Responsiveness
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+The website has been tested across multiple screen sizes using [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) tools for a range of screen sizes:
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+    - Moto G4
+    - Galaxy S5
+    - Pixel 2
+    - Pixel 2 XL
+    - Phone 5 SE
+    - iPhone 6/7/8
+    - iPhone 6/7/8 Plus
+    - iPhone X
+    - iPad
+    - i Pad Pro
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Browser Compatibility
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The live website, hosted on gitpages, has been opened and tested on multiple browsers for responsives and intended appearance. Browers tested included:
+
+    - Google Chrome
+    - Safari
+    - Firefox
 
 ## Deployment
 
@@ -96,7 +144,7 @@ To clone this project from GitHub:
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type git clone and then paste the URL you copied in Step 3.
 
->https://github.com/jccacho18/biopharma.git
+    - https://github.com/jccacho18/biopharma.git
 
 6. Press Enter. Your local clone will be created.
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
