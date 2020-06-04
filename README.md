@@ -121,6 +121,8 @@ The Home page contains the following features:
 
 Each page was ran through [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
+    - I experienced some errors with the spaces that I made in the product.png files and with the <img> tags that has no alt attribute. The errors was fixed.
+
 ### Responsiveness
 
 The website has been tested across multiple screen sizes using [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) tools for a range of screen sizes:
