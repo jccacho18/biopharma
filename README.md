@@ -155,6 +155,7 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 3. Under Source click the drop-down menu labelled None and select Master Branch
 4. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
 5. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+6. This is the url that was presented to me https://jccacho18.github.io/biopharma/
 
 ### How to run this project locally
 
