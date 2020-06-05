@@ -11,17 +11,14 @@ body {
 
 .callout-container {
     height: 100vh;
-   
-   background: url('../images/background.jpg') no-repeat center center fixed;
+    background: url('../images/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -48,9 +45,6 @@ h1 {
     text-shadow: 2px 2px black;
 }
 
-
-/* Navbar */
-
 .navbar {
    padding: 0px 0px 0px 0px;
 }
@@ -62,8 +56,6 @@ h1 {
     font-weight: bold;
 }
 
-/* Page headers */
-
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -73,9 +65,6 @@ h1 {
 .page-header h2 {
     margin-top: 0;
 }
-
-
-/* Block dividers */
 
 .block-divider {
     width: 75px;
@@ -91,16 +80,12 @@ h1 {
     width: 35px;
 }
 
-/* Content container */
-
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
     padding-left: 100px;
     padding-right: 100px;
 }
-
-/* Jumbotron */
 
 .jumbotron {
     background-color: transparent;
@@ -122,8 +107,6 @@ h1 {
     font-style: italic;
     color: whitesmoke;
 }
-
-/* Buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -149,8 +132,6 @@ h1 {
     text-align: center;
     margin-bottom: 40px;
 }
-
-/* Footer */
 
 .footer {
     color: whitesmoke;
@@ -204,8 +185,6 @@ h1 {
     background: #fce205;
 }
 
-/* Contact */
-
 .contact-heading {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -228,26 +207,21 @@ button[type="submit"] {
 
 .contact-container {
     height: 100vh;
-   
-   background: url('../images/contact-us.jpg') no-repeat center center fixed;
+    background: url('../images/contact-us.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
-     margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
-
-/* Media Queries */
 
 @media(min-width: 992px) {
     .center-form {
@@ -258,15 +232,13 @@ button[type="submit"] {
 }
 }
 
-/* Products */
-
 .image {
-  position: relative;
-  width: 250px;
-  height: 250px;
-  padding: 20px;
-  float: left;
-  margin-top: 55px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    float: left;
+    margin-top: 55px;
 }
 
 .product-container {
